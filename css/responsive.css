@@ -1,0 +1,107 @@
+/* Tablet desktop 992 SMALL*/
+@media (max-width: 992px) {
+	/*general*/
+	/*welcome page*/
+	.landing-text h1 {
+		font-size: 4.5em;
+	}
+	.landing-text h2 {
+		font-size: 2.2em;
+	}
+	#home button {
+		font-size: 1em;
+	}
+}
+
+/* MOBILE max 767px XS*/
+@media (max-width: 768px) {
+	/*general*/
+	.section {
+		padding: 30px 0px;
+	}
+	.section-text {
+		text-align: justify;
+		font-size: 0.9em;
+		line-height: 28px;
+	}
+	.section-title {
+		font-size: 2.5em;
+	}
+	.section-title-top {
+		font-size: 2em;
+	}
+
+	/*nav*/
+	#myNavbar {
+		overflow-x: hidden; 
+	}
+
+	/*welcome page*/
+	.landing-text h1 {
+		font-size: 3.5em;
+	}
+	.landing-text h2 {
+		font-size: 1.5em;
+	}
+
+	/*services*/
+	#services > div > div > div > div.col-sm-3 {
+		display: none;
+	}
+	#services > div > div > div > div.col-xs-12 {
+		padding: 0;
+	}
+	#services .section-title,
+	#services .section-title-top {
+		padding-left: 20px;
+	}
+	.s-icons img {
+		margin-top: 50px;
+	}
+
+	/*about*/
+	#about > div > div > div > div.col-xs-12.col-sm-6.text-center > img {
+		width: 100%;
+	}
+
+	/*menu*/
+	#myModal > div {
+		width: 100%;
+		margin: 80px auto;
+	}
+	#myModal > div img {
+		width: 100%;
+	}
+	#myModal > div > div > div {
+		padding: 0;
+	}
+
+	/*testimonials*/
+	#testimonials > div > div > div > div:nth-child(2) {
+		display: none;
+	}
+	#testimonials > div > div > div > div:nth-child(1) {
+		padding: 20px;
+	}
+
+	/*reservation */
+	#reservation .reservation-section {
+		padding-bottom: 100px;
+	}
+	#reservation-form {
+		height: auto;
+		padding-bottom: 50px;
+	}
+
+	/*info*/
+	#info-part {
+		padding: 50px 0;
+		height: auto;
+	}
+	.container-centering-half {
+		min-height: auto;
+		display: block;
+		justify-content: none; /* align horizontal */
+		align-items: none; 
+	}
+}

@@ -1,0 +1,440 @@
+/*general*/
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato';
+	overflow-x: hidden; 
+}
+.container-centering {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; 
+}
+.container-centering-half {
+	min-height: 50vh;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; 
+}
+.section {
+	padding: 100px 0;
+	min-height: 100vh;
+}
+.half-section {
+	padding: 100px 0;
+	min-height: 50vh;
+}
+.section-title {
+	padding: 0;
+	margin: 0;
+	font-size: 3em;
+	letter-spacing: 4px;
+	font-weight: 100;
+}
+.section-title-top {
+	font-family: 'Lobster';
+	font-size: 2.5em;
+	padding: 0;
+	margin-bottom: -10px;
+	color: #d1b751;
+}
+.section-text {
+	padding: 20px 0;
+	line-height: 35px;
+	font-family: 'Lato';
+	letter-spacing: 1px;
+}
+#main button,
+#reservation button {
+	background-color: transparent;
+	border-radius: 0px;
+	color: #282828;
+	border: 1px solid #282828;
+	padding: 8px 20px;
+	letter-spacing: 1px;
+}
+#main button:hover,
+#reservation button:hover {
+	color: white;
+	background-color: #282828;
+
+	-o-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+a:hover {
+	-o-transition: .3s ease-in-out;
+	-moz-transition: .3s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.bg-grey {
+	background-color: #f9f9f9;
+}
+
+/*navbar*/
+#myNavbar {
+	padding: 5px 0;
+}
+#myNavbar > ul > li {
+	font-family: 'Lato';
+	letter-spacing: 1px;
+	font-size: 1em;
+}
+#myNavbar > ul > li  a{
+	color: #f9f9f9;
+}
+#myNavbar > ul > li:hover {
+	background-color: #d1b751;
+	border-radius: 5px;
+
+	-webkit-transition: all .3s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+#myNavbar > ul > li.active > a {
+	background-color: #d1b751;
+	border-radius: 5px;
+}
+#myPage nav.affix-top {
+    padding: 5px 30px;
+    background-color: transparent;
+    color: #282828;
+    border: none;
+
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+#myPage nav.affix {
+    padding: 5px 30px;
+    top: 0;
+    width: 100%;
+    background-color: #282828;
+    border:none;
+    opacity: 0.9;
+
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+#myPage > div.wrapper > nav {
+	padding: 15px 30px;
+    top: 0;
+    width: 100%;
+    background-color: #282828;
+    border:none;
+    opacity: 0.9;
+
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+#myPage > div.wrapper > nav > div > div.navbar-header > button > i {
+	background-color: transparent;
+	color: white;
+	padding: 0 4px;
+	font-size: 1.5em;
+}
+#mobile-menu {
+	display: none;
+}
+.navbar-brand img {
+	width:15px;
+	display: block;
+	margin: auto;
+}
+.logo-navbar {
+	font-family: 'Lobster';
+	font-size: 1em;
+	color: white;
+}
+#main > nav > div > div.navbar-header > button {
+	color: white;
+	border-color: white;
+	padding: 5px 10px;
+}
+
+/*welcomepage*/
+.landing-page {
+    background: rgba(0, 0, 0, 0) url("img/landing-page.jpg") no-repeat fixed 0 0 / cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.landing-text {
+	display: block;
+}
+.landing-text h1 {
+	margin: 0;
+	color: white;
+	font-size: 7em;
+	font-family: 'Lobster';
+}
+.landing-text h2 {
+	color: white;
+	font-size: 4em;
+	font-weight: 100;
+	letter-spacing: 10px;
+}
+.landing-page .learn-btn {
+	margin-top: 40px;
+}
+.landing-page img {
+	width: 50px;
+	display: block;
+	margin: auto;
+}
+#home button {
+	margin: auto;
+	color: white;
+	background-color: transparent;
+	border:none;
+	padding: 10px 30px;
+	font-size: 1.3em;
+	font-weight: 100;
+	letter-spacing: 3px;
+}
+#home button:hover,
+#home button:visited,
+#home button:active {
+	color: #f9f9f9;
+	background-color: transparent;
+	border: none;
+}
+
+/*about*/
+#about img {
+	width: 500px;
+}
+
+/*services*/
+#services > div > div > div > div.col-sm-3 {
+	padding: 0;
+}
+#services > div > div > div > div.col-sm-3 img {
+	height: 600px;
+}
+#services > div > div > div > div.col-sm-9 {
+	padding: 0 60px;
+}
+.services-title {
+	font-size: 1.3em;
+	font-weight: 900;
+}
+.s-icons img {
+	width: 90px;
+	margin: 110px 0 30px;
+}
+#services button {
+	margin: 60px 0;
+}
+
+/*menu*/
+#menu > div > div > ul {
+	width: 420px;
+	display: block;
+	margin: 30px auto;
+}
+#menu > div > div > ul > li.active > a {
+	color: white;
+	background-color: #d1b751;
+}
+#menu > div > div > ul > li > a {
+	color: #282828;
+}
+#myModal {
+	overflow: hidden;
+}
+#myModal > div > div > h3 {
+	text-align: center;
+	padding-top: 20px;
+}
+#myModal > div > div > button {
+	padding: 5px 10px 0 0;
+}
+#myModal > div {
+	width: 550px;
+	margin: 50px auto;
+}
+#myModal > div > div > div.modal-body > a > img {
+	width: 100%;
+}
+.image-text {
+	font-family: 'Oswald';
+	font-size: 1em;
+	text-align: center;
+	font-weight: 300;
+	line-height: 25px;
+	letter-spacing: 1.5px;
+	padding: 0 40px;
+	color: #282828;
+}
+#myModal > div > div > div.modal-footer {
+	text-align: center;
+}
+
+
+/*testimonials*/
+#testimonials > div > div > div > div:nth-child(1) {
+	padding: 100px 150px;
+}
+#testimonials .stars {
+	font-size: 1.3em;
+}
+.client-name {
+	font-family: 'Lobster';
+	font-size: 1.3em;
+	padding: 10px 0;
+}
+#testimonials > div {
+	padding: 0;
+}
+#testimonials > div > div {
+	padding: 0;
+}
+#testimonials > div > div > div > div:nth-child(2) {
+	padding: 120px 0;
+}
+#testimonials > div > div > div > div.col-sm-3.text-right > img {
+	width: 100%;
+}
+
+
+/*reservation*/ 
+.reservation-section {
+    background: rgba(0, 0, 0, 0) url("img/reservation.jpg") no-repeat fixed 0 0 / cover;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.reservation-title {
+	background-color: white;
+	opacity: 0.9;
+	width: 400px;
+	display: block;
+	margin: 0 auto 50px;
+}
+#reservation-form {
+	background-color: white;
+	opacity: 0.9;
+	height: 450px;
+	padding: 40px 100px 0;
+}
+#reservation input {
+	border-color: #282828;
+	background-color: transparent;
+	border-radius: 0px;
+}
+#reservation .col-sm-6 {
+	padding: 10px 50px;
+}
+#reservation button {
+	margin-top: 30px;
+	padding: 8px 40px;
+}
+
+/*info*/
+#info .section {
+	padding: 0;
+}
+#map {
+	height: 60vh;
+}
+#info-part {
+	height: 40vh;
+	background-color: #282828;
+	color: #f9f9f9;
+}
+#info-part .container-centering-half {
+	min-height: 40vh;
+}
+#info-part .fa {
+	color: #d1b751;
+	font-size: 3.3em;
+	padding: 10px 0;
+}
+#info-part .info-title {
+	font-family: 'Lobster';
+	font-size: 1.4em;
+}
+#info-part p {
+	font-family: 'Lato';
+	font-weight: 300;
+	font-size: 1.1em;
+}
+#info-part > div > div:nth-child(3) > div {
+	padding: 0 40px;
+}
+#info-part > div > div:nth-child(3) > div > div.col-xs-11,
+#info-part > div > div:nth-child(3) > div > div.col-xs-1 {
+	padding: 0;
+}
+#info-part input {
+	border-radius: 0px;
+}
+#info-part > div > div:nth-child(3) > div > div > button > i {
+	font-size: 1.2em;
+	padding: 5px 2px;
+}
+#info-part button {
+	border-radius: 4px;
+	margin-left: 15px;
+}
+
+/*footer*/
+footer {
+	background-color: #e1e1e1;
+	color: #abaaaa;
+}
+footer .centering-footer {
+	height: 250px;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center;
+}
+footer img {
+	width: 70px;
+}
+footer .footer-logo {
+	font-family: 'Lobster';
+	font-size: 2.3em;
+
+}
+
+/*SCROLLUP*/
+#scrollRocket {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background: #fec600;
+    background: #fec600;
+    opacity: 0.9;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    display: none;
+    -webkit-transition: all 0.6s linear;
+    -moz-transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+    transition: all 0.6s ease;
+}
+#scrollRocket i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 20px;
+    top: 16px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#scrollRocket:hover {
+    background: #282828;
+}
+#scrollRocket:hover i {
+    color: #fff;
+}
