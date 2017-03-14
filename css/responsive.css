@@ -75,6 +75,15 @@
 	#myModal > div > div > div {
 		padding: 0;
 	}
+	#menu > div > div > ul > li {
+		clear: both;
+	}
+	body > div.wrapper > div > div:nth-child(2) > div > a > img {
+		display: none;
+	}
+	#info-part > div > div:nth-child(3) > div > div.col-xs-1 > button {
+		padding: 0;
+	}
 
 	/*testimonials*/
 	#testimonials > div > div > div > div:nth-child(2) {
@@ -82,6 +91,9 @@
 	}
 	#testimonials > div > div > div > div:nth-child(1) {
 		padding: 20px;
+	}
+	#testimonials > div > div > div > div.col-sm-6 {
+		padding: 50px;
 	}
 
 	/*reservation */
